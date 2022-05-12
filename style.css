@@ -1,0 +1,118 @@
+body {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#Top-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: orange;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.Top-menu-item {
+    flex: 3;
+    background-color: darkcyan;
+}
+
+#Top-bar > h1 {
+    margin: 0px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+#Top-bar > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.Name {
+    flex: 4;
+}
+
+.Login {
+    flex: 4;
+}
+
+#Center-pannel {
+    width: 1024px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+#Main-page {
+    background-color: goldenrod;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+#Main-page > h4{
+    font-size: xx-large;
+    padding: 0 20px 0 20px;
+}
+
+#Main-page > p {
+    padding: 0 20px 0 20px;
+}
+
+#Login-page {
+    background-color: goldenrod;
+    padding: 0 128px 0 128px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+#Login-page > h4 {
+    text-transform: uppercase;
+}
+#Login-page > .Login {
+    width: 768px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px rgb(0, 0, 0) solid;
+    padding: 10px;
+}
+
+#Article-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#Article-section > div {
+    flex-basis: 50%;
+    padding: 0 20px 0 20px;
+}
+
+#Article-section > div > h5 {
+    font-size: larger;
+}
+
+#Article-section > div > p {
+    font-size: small;
+}
+
+#Side-pannel {
+    background-color: olivedrab;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 0 20px 0 20px;
+}
+
+#Footer {
+    background-color: blueviolet;
+    padding: 0 40px 0 40px;
+}
